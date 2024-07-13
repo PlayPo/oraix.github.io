@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="icon.ico">
+    <style>
+    body {
+        background-image:url('coffe.gif');
+        background-size:25%;
+        background-repeat:repeat-x;
+        background-attachment: fixed;
+        background-position: center;
+        background-color: black;
+        height:100%;
+        width:100%;
+        overflow:hidden;
+    }
+    </style>
+    <title>Hora del te!</title>
+
+    <a href="Oraix.mp4" download="Oraix.mp4">
+        <p style="text-align:center;">
+            <img src="OraixPerfil.png" style="height:100%; width: auto; margin-left: auto; margin-right: auto;" alt="" />"
+        </p>
+    </a>
+
+    </head>
+    <body>
+        <audio loop autoplay id="incipio">
+            <source src="anotherone.mp3" type="audio/mpeg">
+            </audio>
+            <script type="text/javascript">
+                var murmuro = document.getElementById("incipio");
+                setTimeout(function() {
+                murmuro.play();
+                },500);
+            </script>
+    </body>
+    </html>
